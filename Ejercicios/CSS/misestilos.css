@@ -1,0 +1,17 @@
+#texto1{font-size: 40px} /*El # se utiliza más para referecia códigos de Javascript*/
+.texto2{font-size: 50px; color:red;} /*Se hace referencia a el mediante class*/
+h2, h3, h4 {color:blue} /*Selector*/ 
+h1, h6 {color:orange}
+
+p[name^=”mi”] { font-size: 40px } /*Será asignado a todo elemento <p> con atributo name cuyo valor comience 
+									en “mi” (por ejemplo, “mitexto”, “micasa”).*/
+
+p[name$=”mi”] { font-size: 20px } /*Será asignado a todo elemento <p> con 
+									atributo name cuyo valor finalice en “mi” (por ejemplo “textomi”, “casami”).*/
+
+p[name*=”mi”] { font-size: 20px } /*Será asignado a todo elemento <p> con atributo name cuyo valor que incluye el 
+									texto “mi” (en este caso, el texto podría también encontrarse en el medio, como en “textomicasa”).*/
+
+
+/*Youtube: https://www.youtube.com/watch?v=uqkj7HQ7ids&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR&index=2  minuto(8:00)*/
+/*Libro: 67*/
