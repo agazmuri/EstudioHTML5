@@ -12,6 +12,20 @@ p[name$=”mi”] { font-size: 20px } /*Será asignado a todo elemento <p> con
 p[name*=”mi”] { font-size: 20px } /*Será asignado a todo elemento <p> con atributo name cuyo valor que incluye el 
 									texto “mi” (en este caso, el texto podría también encontrarse en el medio, como en “textomicasa”).*/
 
+p a {font-size: 40px; color: green;} /*Todos los elementos a que estén dentro de un párrafo, serán afectados por esta regla*/
 
+p .plomo /*A todo elemento p que contenga la clase "plomo", se le asignarán las siguientes características*/
+{
+	color:gray;
+	font-size:30px;
+}
+
+a [href="http://www.spgconsultores.cl"] /*A todo elemento a que contenga como "href" el dominio indicado, se le asginará lo siguiente*/
+{
+	color:purple;
+	font-size:25px;
+}
+									
+									
 /*Youtube: https://www.youtube.com/watch?v=uqkj7HQ7ids&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR&index=2  minuto(8:00)*/
 /*Libro: 67*/
