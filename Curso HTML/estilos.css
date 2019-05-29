@@ -1,3 +1,81 @@
 h1{
 	color: rgb(53,131,44);	
 }
+
+
+    .divisor{
+	background:orange;
+	width:300px;
+	height:120px;
+	margin:20px 50px; /*20px representan los margenes de arriba y abajo, 50px los márgenes de los costados*/
+	padding:30px;
+	border:1px solid #000;
+	display:inline-block; /*Un elemento al lado del otro*/
+}	
+
+a {
+	background:orange;
+}
+
+body{
+	background:url(imagenes/spgw.jpg); /*Fondo repetido por la pantalla, para texturas.*/
+	background-repeat: no-repeat; /*Si queremos que no se repita, le indicamos el valor: no-repeat*/
+	background-attachment:fixed; /*Esto hace queel fondo esté fijo y al existir más líneas todo el contenido se mueva menos el fondo*/
+	background-position:50% 50%; /*Alineado 50% hacia la deracha e izquierda y 50% arriba y abajo*/
+	/*background-position:center; también podemos usar center, el cual lo centra en todas las direcciones*/ 
+}
+
+
+div{
+	width:100px;
+	height:100px;
+	background: #4A88F4;
+	color:#fff;
+	font-size:30px;
+	float:left;
+	margin:20px 20px 20px 20px;
+}
+.caja{
+	position:static;
+	top:100px;
+	bottom:0;
+	right:0;
+	left:20px;
+	}
+.miheader{
+	float:left;
+}
+
+.divi {
+	background:white;	
+}
+
+.clear{
+	clear:both; /*Esta clase permitirá romper con los elementos flotantes*/
+}
+
+p{
+	font-family:"verdana";
+	font-size: 20px;
+  /*font-weight:bold; /*Texto en Negrita, también podemos sar números dependiendo de la fuente*/
+  /*font-weight:normal; Le indicamos que no usaremos negritas*/
+  /*line-height:50px; Tamaño de la línea de la fuente Interlineado*/
+  /*text-decoration:underline; Subarayado*/
+  /*text-transform:capitalize; Cada palabra iniciará con mayúsculas*/
+  /*text-transform: uppercase; todo en mayúsculas y lowercase todo en minúsculas*/   
+  /*letter-spacing:2px; Espaciado entre las letras*/
+  /*word-spacing: 2px; Espaciado entre las palabras*/
+    text-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px #999;
+	
+}
+
+.clase1{
+} 
+
+.clase2{
+}
+
+.clase3{
+}
+
